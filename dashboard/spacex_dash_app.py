@@ -149,7 +149,7 @@ def get_scatter_chart(site, payload):
             x='Payload Mass (kg)',
             y='class',
             color='Booster Version Category',
-            title='Correlation between Payload and Success for all States',
+            title='Correlation between Payload and Success for all Sites',
         )
         return [
             dcc.Graph(figure=fig),
